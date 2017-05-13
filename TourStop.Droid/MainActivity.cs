@@ -42,6 +42,8 @@ namespace TourStop.Android
 
             callDialog.SetPositiveButton("Call", delegate {
                 var callIntent = new Intent(Intent.ActionCall);
+                callIntent.SetData(global::Android.Net.Uri.Parse("tel:" + phoneNumber));
+                StartActivity(callIntent);
 
             });
             callDialog.SetNeutralButton("Cancel", delegate { });

@@ -1,0 +1,4 @@
+TourStop.Android.MainActivity, TourStop.Android;md526df0fb2166b63e2177a217109d15d5b.MainActivity
+TourStop.Android.MainActivity, TourStop.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md526df0fb2166b63e2177a217109d15d5b.MainActivity
+TourStop.Android.MainActivity;md526df0fb2166b63e2177a217109d15d5b.MainActivity
+tourstop.android.MainActivity;md526df0fb2166b63e2177a217109d15d5b.MainActivity

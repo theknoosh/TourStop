@@ -25,8 +25,13 @@ namespace TourStop.Android
             Button button1 = FindViewById<Button>(Resource.Id.callButton1);
             Button button2 = FindViewById<Button>(Resource.Id.callButton2);
 
+            TextView resultText = FindViewById<TextView>(Resource.Id.resultText);
+
 			button1.Click += delegate {
-                CallNumber(button1.Text);
+                var duration = new Duration();
+                double result = duration.CalculateTourDuration(numberOfStops: 5,
+                                                        speedRatio: 1.2);
+                resultText.Text = String.Format("{0} minutes", result);
             };
 
 			button2.Click += delegate

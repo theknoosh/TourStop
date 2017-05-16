@@ -1,0 +1,11 @@
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/bin/Debug/TourLib.dll
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/bin/Debug/TourLib.pdb
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/bin/Debug/TourLib.TourLib.apk
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/bin/Debug/TourLib.TourLib-Signed.apk
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/obj/Debug/TourLib.csproj.CoreCompileInputs.cache
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/obj/Debug/TourLib.dll
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/obj/Debug/TourLib.pdb
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/obj/Debug/android/bin/TourLib.TourLib.apk
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/obj/Debug/res/values/strings.xml
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/obj/Debug/R.cs.flag
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/TourLib/obj/Debug/uploadflags.txt

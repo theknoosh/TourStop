@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using TourLib;
 
 namespace TourStop.Android
 {
@@ -20,24 +21,54 @@ namespace TourStop.Android
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button1 = FindViewById<Button>(Resource.Id.callButton1);
-            Button button2 = FindViewById<Button>(Resource.Id.callButton2);
+            var stops = TourSource.GetTourStops(6);
+            var table = FindViewById<TableLayout>(Resource.Id.tableLayout1);
+            foreach(var currentStop in stops)
+            {
+				var tableRow = new TableRow(this);
+
+				table.AddView(tableRow);
+
+				var textView = new TextView(this);
+				textView.Text = currentStop.Name;
+
+				textView.Gravity = GravityFlags.Left;
+				tableRow.AddView(textView);
+
+
+
+				var mapButton = new Button(this);
+				mapButton.Text = "Map";
+
+				// map button click handler goes here...
+
+				mapButton.Gravity = GravityFlags.Right;
+
+				tableRow.AddView(mapButton);
+
+				var button = new Button(this);
+				button.Text = currentStop.Phone;
+
+				button.Gravity = GravityFlags.Right;
+
+				// call button click handler goes here...
+
+
+				tableRow.AddView(button);
+
+			}
+
+            Button calcButton = FindViewById<Button>(Resource.Id.calculateDuration);
 
             TextView resultText = FindViewById<TextView>(Resource.Id.resultText);
 
-			button1.Click += delegate {
+            calcButton.Click += delegate {
                 var duration = new Duration();
-                double result = duration.CalculateTourDuration(numberOfStops: 5,
+                double result = duration.CalculateTourDuration(numberOfStops: stops.Count,
                                                         speedRatio: 1.2);
                 resultText.Text = String.Format("{0} minutes", result);
             };
 
-			button2.Click += delegate
-			{
-                CallNumber(button2.Text);
-			};
 		}
 
         private void CallNumber(string phoneNumber)

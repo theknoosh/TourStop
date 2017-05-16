@@ -99,6 +99,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "TourStop.Android.dll" comes first in this list. */
 		"TourStop.Android.dll",
+		"TourLib.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

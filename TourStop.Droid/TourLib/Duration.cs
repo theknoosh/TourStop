@@ -1,5 +1,5 @@
-﻿using System;
-namespace TourStop.Android
+﻿﻿using System;
+namespace TourLib
 {
     public class Duration
     {

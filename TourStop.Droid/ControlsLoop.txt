@@ -1,0 +1,30 @@
+﻿var tableRow = new TableRow(this);
+
+				table.AddView(tableRow);
+
+				var textView = new TextView(this);
+				textView.Text = currentStop.Name;
+
+				textView.Gravity = GravityFlags.Left;
+				tableRow.AddView(textView);
+
+
+
+				var mapButton = new Button(this);
+				mapButton.Text = "Map";
+				
+				// map button click handler goes here...
+
+				mapButton.Gravity = GravityFlags.Right;
+
+				tableRow.AddView(mapButton);
+
+				var button = new Button(this);
+				button.Text = currentStop.Phone;
+
+				button.Gravity = GravityFlags.Right;
+
+				// call button click handler goes here...
+				
+
+				tableRow.AddView(button);

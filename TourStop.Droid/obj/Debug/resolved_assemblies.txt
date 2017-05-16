@@ -7,6 +7,7 @@
 /Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/obj/Debug/android/assets/System.dll
 /Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/obj/Debug/android/assets/System.Xml.dll
 /Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/obj/Debug/android/assets/System.Xml.Linq.dll
+/Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/obj/Debug/android/assets/TourLib.dll
 /Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/obj/Debug/android/assets/System.Runtime.dll
 /Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/obj/Debug/android/assets/System.ComponentModel.Composition.dll
 /Users/darrellpayne/Dropbox/Xamarin Projects/TourStop.Droid/TourStop.Droid/obj/Debug/android/assets/System.Threading.dll

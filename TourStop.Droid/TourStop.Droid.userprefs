@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{F0111FE3-E3EF-4AE9-92BD-5AC1CDDC411B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Duration.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainActivity.cs">
     <Files>
-      <File FileName="MainActivity.cs" Line="28" Column="63" />
-      <File FileName="Duration.cs" Line="14" Column="5" />
+      <File FileName="MainActivity.cs" Line="13" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

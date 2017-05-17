@@ -41,17 +41,29 @@ namespace TourStop.Android
 				mapButton.Text = "Map";
 
 				// map button click handler goes here...
+                mapButton.Click += delegate{
 
-				mapButton.Gravity = GravityFlags.Right;
+                    string mapUri = string.Format("geo:0,0?q={0},{1}({2})", currentStop.Latitude,
+                                                  currentStop.Longitude, currentStop.Name);
+                    var geoUri = global::Android.Net.Uri.Parse(mapUri);
+                    var mapIntent = new Intent(Intent.ActionView, geoUri);
+                    StartActivity(mapIntent);
+                };
+
+                mapButton.Gravity = GravityFlags.Center;
 
 				tableRow.AddView(mapButton);
 
 				var button = new Button(this);
 				button.Text = currentStop.Phone;
 
-				button.Gravity = GravityFlags.Right;
+                button.Gravity = GravityFlags.Center;
 
 				// call button click handler goes here...
+                button.Click += delegate
+                {
+                    CallNumber(button.Text);
+                };
 
 
 				tableRow.AddView(button);
@@ -70,6 +82,7 @@ namespace TourStop.Android
             };
 
 		}
+
 
         private void CallNumber(string phoneNumber)
         {
